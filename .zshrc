@@ -21,6 +21,7 @@ setopt hist_verify
 
 bindkey "^[[A" history-search-backward
 bindkey "^[[B" history-search-forward
+bindkey '^U' up-line-or-history # assigns CTRL+u as the equivalent of up arrow
 
 # alias
 alias alacritty="cd ~/.config/alacritty/"
